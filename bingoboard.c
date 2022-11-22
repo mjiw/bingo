@@ -83,8 +83,6 @@ int bingo_countcompletedline(void){ //완성된 줄 수 계산 입력은 필요없음 return은
 			cnt++;
 		}
 	}
-	printf("\n");
-	printf("completed lines:%i\n",cnt);
 	return cnt;
 }
 

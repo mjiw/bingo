@@ -60,13 +60,13 @@ int main(int argc, char *argv[]) {
 	
 	int	selnum=get_number();
 	bingo_inputnum(selnum);
-	bingo_countcompletedline();
+	printf("completed lines:%i\n",bingo_countcompletedline());
 	bingo_printboard();
 	
 	while(bingo_countcompletedline()<=bingo_res_unfinished){
 		int	selnum=get_number();
 		bingo_inputnum(selnum);
-		bingo_countcompletedline();
+		printf("completed lines:%i\n",bingo_countcompletedline());
 		bingo_printboard();
 	} 
 	
