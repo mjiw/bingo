@@ -4,6 +4,7 @@
 #define bingo_res_unfinished	1
 #define N_BINGO	2
 
+
 void bingo_init(void);
 int bingo_countcompletedline(void); //완성된 줄 수 계산 입력은 필요없음 return은 정수형 
 void bingo_printboard(void);

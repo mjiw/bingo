@@ -57,7 +57,6 @@ int main(int argc, char *argv[]) {
 	
 	bingo_init();
 	bingo_printboard();
-	
 	int	selnum=get_number();
 	bingo_inputnum(selnum);
 	printf("completed lines:%i\n",bingo_countcompletedline());
